@@ -2,13 +2,18 @@
   <div id="app">
     <img src="./assets/logo.png">
     <div>{{ $t("message") }}</div>
+    <Menu></Menu>
     <router-view/>
   </div>
 </template>
 
 <script>
+import Menu from '@/components/Menu'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Menu
+  }
 }
 </script>
 
