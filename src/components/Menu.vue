@@ -1,39 +1,15 @@
 <template>
-  <div>
-    <router-link to='/'>Home</router-link>
-    <router-link to='/portfolio'>Portfolio</router-link>
-    <router-link to='/about'>About</router-link>
-    <router-link to='/resume'>Resume</router-link>
-    <router-link to='/blog'>Blog</router-link>
-    <router-link to='/contact'>Contact</router-link>
-    </div>
+  <div class="nav-bar">
+      <router-link class='nav-item'to='/'>HOME</router-link>
+      <router-link class='nav-item'to='/portfolio'>PORTFOLIO</router-link>
+      <router-link class='nav-item'to='/about'>ABOUT</router-link>
+      <router-link class='nav-item'to='/resume'>RESUME</router-link>
+      <router-link class='nav-item'to='/blog'>BLOG</router-link>
+      <router-link class='nav-item'to='/contact'>CONTACT</router-link>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>

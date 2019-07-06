@@ -1,0 +1,19 @@
+.nav-bar {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0.5em;
+    max-width: 1280px;
+    font-size: 15pt;
+    z-index: 1;
+    .nav-item {
+        margin: 0.5em;
+        color: white;
+        text-decoration: none;
+        transition: 0.8s;
+        &:hover {
+            color: grey;
+        }
+    }
+}
