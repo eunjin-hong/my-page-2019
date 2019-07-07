@@ -4,7 +4,7 @@
     <Menu></Menu>
     <router-view></router-view>
   </v-content>
-  <v-footer app></v-footer>
+  <v-footer></v-footer>
   </v-app>
 </template>
 
