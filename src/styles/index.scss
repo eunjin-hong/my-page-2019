@@ -1,4 +1,8 @@
-@import 'components/nav-bar';
-@import 'components/title';
-@import 'components/quote';
-@import 'views/home/main'
+@import "components/nav-bar";
+@import "components/title";
+@import "components/subtitle";
+@import "components/quote";
+@import "components/content1";
+
+@import "views/home/main";
+@import "views/home/introduction";
