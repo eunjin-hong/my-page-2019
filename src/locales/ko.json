@@ -21,6 +21,9 @@
                 "title": "백엔드를 좋아합니다",
                 "content": "현재 Django REST Framework를 다루고 있으며, 종종 node도 사용하고 있습니다."
             }
+        },
+        "album": {
+            "title": "일상 사진"
         }
     }
 }
